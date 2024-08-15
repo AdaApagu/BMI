@@ -1,0 +1,46 @@
+ body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .border{
+    border: 2px solid black;
+    border-radius: 2%;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    font-weight: bold;
+    padding-left: 30px;
+ }
+ button{
+   width: 100px;
+   height: 30px;
+   align-items: center;
+   margin-top: 20px;
+   margin-left: 10px;
+  font-size: large;
+  background-color: aqua;
+  border: none;
+  justify-items: center;
+ }
+ 
+ .form{
+   display:inline-flex;
+  
+ }
+ .showcase input[type='text'] {
+   border: 0;
+   border-bottom: 1px solid #b4becb; 
+   padding: 3px;
+   font-size: 16px; 
+  }
+  .bottom{
+   margin-bottom: 20px;
+  }
+
+#bmiResult {
+   font-size: 18px;
+   margin-top: 20px; 
+   font-weight: bold;
+}
